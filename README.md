@@ -1,7 +1,6 @@
 ockam-experiments
 
-[[https://github.com/bshambaugh/ockam-experiments/blob/master/photos/7961C683-282C-4BE6-AFAA-E688BE44E2B2.jpeg]|Crypto]]
-
+Picture of hardware
 [[https://github.com/bshambaugh/ockam-experiments/blob/master/photos/7961C683-282C-4BE6-AFAA-E688BE44E2B2.jpeg]]
 
 I have 2 "SparkFun Cryptographic Co-Processor Breakout - ATECC508A (Qwiic)" boards.  However I read that I can lock them down irreversibly. This is scary. 
