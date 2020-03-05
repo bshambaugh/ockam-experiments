@@ -78,6 +78,10 @@ https://cryptobook.nakov.com/digital-signatures/eddsa-and-ed25519
 What is a vault?
 https://owasp.org/www-project-cheat-sheets/cheatsheets/Key_Management_Cheat_Sheet.html
 
+"The Vault interface exposes functions for generating and using cryptographic keys, secure random numbers, key derivation, hashing, message authentication, digital signatures, Diffie-Hellman key exchange, authenticated encryption etc."
+
+From (https://github.com/ockam-network/ockam/blob/develop/documentation/concepts/vaults.md)
+
 Using other devices other than the ESP32, may not be easy. Here is what I have:
 
 
