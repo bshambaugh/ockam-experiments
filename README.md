@@ -1,5 +1,7 @@
 ockam-experiments
 
+![alt text](.7961C683-282C-4BE6-AFAA-E688BE44E2B2.jpeg "Cryptographic Co-Processor - ATECC508A and Heltec Wifi 32 v2")
+
 I have 2 "SparkFun Cryptographic Co-Processor Breakout - ATECC508A (Qwiic)" boards.  However I read that I can lock them down irreversibly. This is scary. 
 ":lock:Warning: Configuration settings are PERMANENT. We would like to stress the fact that these cannot be changed later. If you intend to follow along with this tutorial, then configure with SparkFun standard settings.
 If you intend to use different features of the co-processor like the Diffie-Hellman Key Exchange and some of its other use cases, please consider designing your own custom configuration. This hookup guide only focuses on digital signature creation and verification."
