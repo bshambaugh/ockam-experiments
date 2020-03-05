@@ -23,6 +23,9 @@ https://github.com/ockam-network/did-method-spec --> ed2559 ??
 https://github.com/ockam-network/proposals/tree/master/design/0003-key-agreement-xx
 [0] https://news.ycombinator.com/item?id=16748400
 
+perhaps visit:
+https://searchsecurity.techtarget.com/definition/asymmetric-cryptography
+
 I have proposed the following steps. The Ockam code appears to be set up with a Raspberri Pi.
 
 Step 1:
