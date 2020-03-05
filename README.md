@@ -13,6 +13,8 @@ https://learn.sparkfun.com/tutorials/cryptographic-co-processor-atecc508a-qwiic-
 
 paraphrasing the video in the tutorial: "The ATECC508A creates a digital signature which allows the data and digital signature to be sent, verifing the sender."
 "It is using the private key to create the signature, that can only be found on the chip" -- presumably the private key on the chip operates on the message to create the signature
+"your signature will change because even though we are using the same private key on the same chunk of data, there is a bit of randomness provided by elliptic curve cryptography"
+"sign some data using the private key and verify it using the public key"
 https://www.youtube.com/watch?v=_MjjF211BM8
 
 
