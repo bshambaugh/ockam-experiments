@@ -11,6 +11,9 @@ https://learn.sparkfun.com/tutorials/cryptographic-co-processor-atecc508a-qwiic-
 "The ATECC508A is capable of many cryptographic processes. This tutorial focuses on Elliptic-curve cryptographic digital signatures (ECC) - using asymetric private/public keys. If those last few words are new to you, please read on! We will spend some time explaining in a bit."
 https://learn.sparkfun.com/tutorials/cryptographic-co-processor-atecc508a-qwiic-hookup-guide/
 
+paraphrasing the video in the tutorial: "The ATECC508A creates a digital signature which allows the data and digital signature to be sent, verifing the sender."
+https://www.youtube.com/watch?v=_MjjF211BM8
+
 However Ockam’s protocol appears to use ed2559 [0] asymmetric signatures. I am not sure the breakout board will work out of the box like in the Sparkfun tutorial.
 
 From [0]
@@ -22,6 +25,8 @@ From [0]
 https://github.com/ockam-network/did-method-spec --> ed2559 ?? 
 https://github.com/ockam-network/proposals/tree/master/design/0003-key-agreement-xx
 [0] https://news.ycombinator.com/item?id=16748400
+
+The ATECC508A sends the 
 
 perhaps visit:
 https://searchsecurity.techtarget.com/definition/asymmetric-cryptography
