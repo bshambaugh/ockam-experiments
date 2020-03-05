@@ -8,7 +8,16 @@ I have 2 "SparkFun Cryptographic Co-Processor Breakout - ATECC508A (Qwiic)" boar
 If you intend to use different features of the co-processor like the Diffie-Hellman Key Exchange and some of its other use cases, please consider designing your own custom configuration. This hookup guide only focuses on digital signature creation and verification."
 https://learn.sparkfun.com/tutorials/cryptographic-co-processor-atecc508a-qwiic-hookup-guide/example-1-configuration
 
+"The ATECC508A is capable of many cryptographic processes. This tutorial focuses on Elliptic-curve cryptographic digital signatures (ECC) - using asymetric private/public keys. If those last few words are new to you, please read on! We will spend some time explaining in a bit."
+https://learn.sparkfun.com/tutorials/cryptographic-co-processor-atecc508a-qwiic-hookup-guide/
+
 However Ockam’s protocol appears to use ed2559 [0] asymmetric signatures. I am not sure the breakout board will work out of the box like in the Sparkfun tutorial.
+
+From [0]
+
+	Asymmetric signatures	[2]		NaCl			NaCl
+						Ed25519			Ed25519
+						RFC6979
 
 https://github.com/ockam-network/did-method-spec --> ed2559 ?? 
 https://github.com/ockam-network/proposals/tree/master/design/0003-key-agreement-xx
@@ -24,6 +33,8 @@ https://github.com/espressif/esp-idf/blob/master/examples/peripherals/i2c/i2c_se
 
 https://heltec.org/project/wifi-lora-32/
 https://heltec-automation-docs.readthedocs.io/en/latest/esp32/wifi_lora_32/hardware_update_log.html#v2-1
+https://github.com/MicrochipTech/cryptoauthlib/issues/5
+https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/i2c.html
 
 
 Step 2:
@@ -87,6 +98,7 @@ Using other devices other than the ESP32, may not be easy. Here is what I have:
 
 I own an ardunio uno,  2 heltec cubecells, 2 heltec esp32 + LoRa + OLED boards, and a heltec programming board with a single chip usb to UART bridge:
 https://www.silabs.com/documents/public/data-sheets/C2-P2109.pdf
+https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ac01/capsule_quick_start.html
 UART communication is different than I2C communication:
 https://www.circuitbasics.com/basics-uart-communication/ (no clock)
 https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol , https://www.youtube.com/watch?v=6IAkYpmA1DQ
