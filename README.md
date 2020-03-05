@@ -17,6 +17,7 @@ paraphrasing the video in the tutorial: "The ATECC508A creates a digital signatu
 "sign some data using the private key and verify it using the public key"
 https://www.youtube.com/watch?v=_MjjF211BM8
 
+tangent  ""
 So, who are alice and bob? 
 https://medium.com/asecuritysite-when-bob-met-alice/how-does-trent-send-a-cipher-message-to-bob-alice-and-carol-and-not-know-what-reads-the-message-13b221ed38fc
 If I have two entities doing ping pong[-1] do I need a different private key for each entity?
@@ -24,6 +25,10 @@ https://medium.com/asecuritysite-when-bob-met-alice/how-does-trent-send-a-cipher
 [-1] https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/Factory_Test/WiFi_LoRa_32FactoryTest/WiFi_LoRa_32FactoryTest.ino
 oh, dear nuts. Wheb Bob Met Alice Who Met Carol: https://medium.com/asecuritysite-when-bob-met-alice/when-bob-met-alice-who-met-carol-27f36cc19d39
 
+In the alice and bob example in the sparkfun tutorial (http://www.youtube.com/watch?v=_MjjF211BM8&t=10m48s), I have a second coprocessor attached to a 2nd ardunio (the first coprocessor and ardunio is with alice) using
+alice's public key. Since ESP32 are more like raspberri pis could I just store alice's public key on the ESP32 rather than a second coprocessor. I imagine that the coprocessor needs to be
+with the ardunio since the atmega328P (or whatever similar it happens to be) does not do a lot beyond being a good microcontroller. not a lot of memory or whatever.
+"" end tangent
 
 However Ockam’s protocol appears to use ed2559 [0] asymmetric signatures. I am not sure the breakout board will work out of the box like in the Sparkfun tutorial.
 
