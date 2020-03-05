@@ -26,6 +26,10 @@ https://github.com/ockam-network/proposals/tree/master/design/0003-key-agreement
 perhaps visit:
 https://searchsecurity.techtarget.com/definition/asymmetric-cryptography
 
+"To create a digital signature, signing software -- such as an email program -- creates a one-way hash of the electronic data to be signed. The user's private key is then used to encrypt the hash, returning a value that is unique to the hashed data. The encrypted hash, along with other information such as the hashing algorithm, forms the digital signature. Any change in the data, even to a single bit, results in a different hash value.
+
+This attribute enables others to validate the integrity of the data by using the signer's public key to decrypt the hash. If the decrypted hash matches a second computed hash of the same data, it proves that the data hasn't changed since it was signed. If the two hashes don't match, the data has either been tampered with in some way -- indicating a failure of integrity -- or the signature was created with a private key that doesn't correspond to the public key presented by the signer -- indicating a failure of authentication."
+
 I have proposed the following steps. The Ockam code appears to be set up with a Raspberri Pi.
 
 Step 1:
