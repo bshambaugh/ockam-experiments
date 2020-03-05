@@ -1,6 +1,6 @@
 ockam-experiments
 
-[[/photos/7961C683-282C-4BE6-AFAA-E688BE44E2B2.jpeg]]
+[[https://github.com/bshambaugh/ockam-experiments/blob/master/photos/7961C683-282C-4BE6-AFAA-E688BE44E2B2.jpeg]|Crypto]]
 
 [[https://github.com/bshambaugh/ockam-experiments/blob/master/photos/7961C683-282C-4BE6-AFAA-E688BE44E2B2.jpeg]]
 
