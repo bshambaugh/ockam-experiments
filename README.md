@@ -12,7 +12,9 @@ https://learn.sparkfun.com/tutorials/cryptographic-co-processor-atecc508a-qwiic-
 https://learn.sparkfun.com/tutorials/cryptographic-co-processor-atecc508a-qwiic-hookup-guide/
 
 paraphrasing the video in the tutorial: "The ATECC508A creates a digital signature which allows the data and digital signature to be sent, verifing the sender."
+"It is using the private key to create the signature, that can only be found on the chip" -- presumably the private key on the chip operates on the message to create the signature
 https://www.youtube.com/watch?v=_MjjF211BM8
+
 
 However Ockam’s protocol appears to use ed2559 [0] asymmetric signatures. I am not sure the breakout board will work out of the box like in the Sparkfun tutorial.
 
